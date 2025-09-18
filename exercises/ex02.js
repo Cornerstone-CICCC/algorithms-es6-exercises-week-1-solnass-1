@@ -10,3 +10,19 @@ Write a series of conditional statements that:
 
 */
 
+
+let musicians = 2
+
+if (musicians === 0 ){
+    console.log("This is not a group!")
+} else if (musicians ===1 ) {
+    console.log("This is a solo!")
+} else if (musicians ===2) {
+    console.log("This is a duet!")
+} else if (musicians === 3) {
+    console.log("This is a trio!")
+} else if (musicians === 4) {
+    console.log("This is a quartet!")
+} else if (musicians > 4) {
+    console.log("This is a large group!")
+}
