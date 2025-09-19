@@ -11,3 +11,10 @@ row: 25 - seat: 97
 row: 25 - seat: 98
 row: 25 - seat: 99
 */
+
+
+for (let x = 0; x < 26; x = x + 1) {
+    for (let y = 0; y < 100; y = y + 1) {
+        console.log(`row: ${x} - seat: ${y}`);
+    }
+}
