@@ -5,3 +5,7 @@ for (x < 10; x++) {
   console.log(x);
 }
 */
+
+for (let x=5 ; x <= 9 ; x = x + 1){
+  console.log(x);
+}
